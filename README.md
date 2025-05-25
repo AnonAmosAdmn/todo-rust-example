@@ -1,15 +1,15 @@
 # Rust Todo API
 
-A lightweight and fully functional Todo API built with Rust, Axum, SQLx, and SQLite. This project features:
+A lightweight and fully functional Todo API built with Rust, Axum, SQLx, and SQLite.
+
+
+# This project features:
 
 RESTful endpoints to create, read, update, and delete todos.
 
 SQLite-backed storage with auto-initialization.
 
 Simple HTML+JS frontend for testing the API interactively.
-
-
-# Features
 
 Axum web framework for routing and async handlers.
 
