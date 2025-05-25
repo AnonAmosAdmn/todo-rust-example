@@ -62,7 +62,7 @@ GET	/	Basic HTML frontend
 
 # Example POST /todos body:
 {
-  "title": "Write README"
+  "title": "new todo"
 }
 
 
