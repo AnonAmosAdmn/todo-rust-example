@@ -33,7 +33,7 @@ sqlite3 (optional, for inspecting DB manually)
 
 git clone https://github.com/AnonAmosAdmn/todo-rust-example
 
-cd rust-todo-api
+cd todo-rust-example
 
 
 # Run the server
