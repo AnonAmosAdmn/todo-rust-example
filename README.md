@@ -53,17 +53,25 @@ Example POST /todos body:
   "title": "Write README"
 }
 
+
 Example PUT /todos/:id body:
 {
   "title": "Updated title"
 }
 
+
 Project Structure
+
 ├── src/
+
 │   └── main.rs         # Main server and route logic
+
 ├── data/               # SQLite DB auto-generated here
+
 ├── Cargo.toml          # Dependencies and project info
+
 └── README.md
+
 
 Dependencies
 axum
@@ -73,8 +81,10 @@ sqlx
 uuid
 tokio
 
+
 License
 MIT License
+
 
 Todo
  Add completed status toggle
