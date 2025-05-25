@@ -24,10 +24,6 @@ Rust & Cargo
 
 sqlite3 (optional, for inspecting DB manually)
 
-Steps
-bash
-Copy
-Edit
 # Clone the repo
 git clone https://github.com/anonamosadmn/rust-todo-api
 cd rust-todo-api
@@ -46,39 +42,28 @@ DELETE	/todos/:id	Delete a todo by ID
 GET	/	Basic HTML frontend
 
 Example POST /todos body:
-json
-Copy
-Edit
 {
   "title": "Write README"
 }
+
 Example PUT /todos/:id body:
-json
-Copy
-Edit
 {
   "title": "Updated title"
 }
+
 Project Structure
-bash
-Copy
-Edit
 ├── src/
 │   └── main.rs         # Main server and route logic
 ├── data/               # SQLite DB auto-generated here
 ├── Cargo.toml          # Dependencies and project info
 └── README.md
+
 Dependencies
 axum
-
 hyper
-
 serde
-
 sqlx
-
 uuid
-
 tokio
 
 License
@@ -86,9 +71,6 @@ MIT License
 
 Todo
  Add completed status toggle
-
  Add filtering (e.g. /todos?completed=true)
-
  Add tests
-
  Dockerize
