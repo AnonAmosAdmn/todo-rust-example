@@ -31,7 +31,7 @@ sqlite3 (optional, for inspecting DB manually)
 
 # Clone the repo
 
-git clone https://github.com/anonamosadmn/rust-todo-api
+git clone https://github.com/AnonAmosAdmn/todo-rust-example
 
 cd rust-todo-api
 
