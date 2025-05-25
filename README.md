@@ -47,17 +47,17 @@ By default, the server runs at http://127.0.0.1:3000 and creates data/todos.db.
 
 Method	Endpoint	Description
 
-GET	/todos	List all todos
+GET	/todos	     List all todos
 
-GET	/todos/:id	Get a specific todo
+GET	/todos/:id	     Get a specific todo
 
-POST	/todos	Create a new todo
+POST	/todos       	Create a new todo
 
-PUT	/todos/:id	Update a todo (title)
+PUT	/todos/:id	      Update a todo (title)
 
-DELETE	/todos/:id	Delete a todo by ID
+DELETE	/todos/:id	       Delete a todo by ID
 
-GET	/	Basic HTML frontend
+GET	/	      Basic HTML frontend
 
 
 # Example POST /todos body:
